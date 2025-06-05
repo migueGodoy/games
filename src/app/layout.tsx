@@ -6,6 +6,9 @@ import Navbar from "@/app/components/navbar";
 export const metadata: Metadata = {
   title: "Games for My Kids",
   description: "A collection of fun and educational games for children made by a dad",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 const playwrite = Playwrite_ES({
